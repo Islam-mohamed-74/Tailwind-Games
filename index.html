@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./all.min.css" />
+  </head>
+  <body class="text-gray-300 bg-gray-900 font-bodyfont">
+    <div class="main-container px-10 grid grid-cols-3">
+      <div class="navigation text-right">
+        <div
+          class="title sm:text-xl md:text-3xl font-bold pt-7 p-5 text-secondry-100 border-b border-gray-600"
+        >
+          KORSAT <span class="text-secondry-200">X</span> PARMAGA
+        </div>
+
+        <div class="links">
+          <div
+            class="link flex justify-end items-center px-5 py-3 border-r-2 bg-gray-500 bg-opacity-25 hover:bg-gray-500 hover:bg-opacity-25 my-5 cursor-pointer transition ease-out duration-200"
+          >
+            <div class="text font-semibold">Home</div>
+            <div class="icon ml-5 text-lg">
+              <i class="fa-solid fa-house"></i>
+            </div>
+          </div>
+
+          <div
+            class="link flex justify-end items-cente px-5 py-3 hover:bg-gray-500 hover:bg-opacity-25 my-5 cursor-pointer transition ease-out duration-300"
+          >
+            <div class="text">About</div>
+            <div class="icon ml-5 text-lg">
+              <i class="fa-solid fa-circle-question"></i>
+            </div>
+          </div>
+
+          <div
+            class="link flex justify-end items-cente px-5 py-3 hover:bg-gray-500 hover:bg-opacity-25 cursor-pointer transition ease-out duration-300"
+          >
+            <div class="text">Contact</div>
+            <div class="icon ml-5 text-lg">
+              <i class="fa-solid fa-address-book"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="col-span-2 pt-5 pl-5">
+        <header class="flex items-start justify-end md:justify-between">
+          <div class="title hidden md:block">
+            <div class="main-title text-6xl">Games</div>
+            <div class="sub-title text-3xl font-semibold text-green-500">
+              For Gamers
+            </div>
+          </div>
+
+          <div class="user flex gap-5">
+            <div
+              class="login font-semibold text-primary btn hover:bg-primary hover:text-white transition ease-out duration-300"
+            >
+              Log in
+            </div>
+            <div
+              class="signup font-semibold text-primary btn hover:bg-primary hover:text-white transition ease-out duration-300"
+            >
+              Sign up
+            </div>
+          </div>
+        </header>
+
+        <div class="games">
+          <section>
+            <div
+              class="title font-bold text-3xl text-yellow-300 mt-7 py-5 border-b-2 border-yellow-300 mb-5"
+            >
+              Latest Games
+            </div>
+            <div class="cards grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+              <div class="card">
+                <div class="image h-full w-full">
+                  <img
+                    class="h-full w-full object-cover"
+                    src="img/assassins-creed-mirage.jpg"
+                  />
+                </div>
+                <div class="title">
+                  <div class="main-title font-bold">
+                    Assassin's Creed Mirage
+                  </div>
+                  <div class="sub-title">Developers: Ubisoft</div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image h-full w-full">
+                  <img
+                    class="h-full w-full object-cover"
+                    src="img/assassins-creed-mirage.jpg"
+                  />
+                </div>
+                <div class="title">
+                  <div class="main-title font-bold">
+                    Assassin's Creed Mirage
+                  </div>
+                  <div class="sub-title">Developers: Ubisoft</div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="image h-full w-full">
+                  <img
+                    class="h-full w-full object-cover"
+                    src="img/assassins-creed-mirage.jpg"
+                  />
+                </div>
+                <div class="title">
+                  <div class="main-title font-bold">
+                    Assassin's Creed Mirage
+                  </div>
+                  <div class="sub-title">Developers: Ubisoft</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div
+              class="title title font-bold text-3xl text-yellow-300 mt-7 py-5 border-b-2 border-yellow-300 mb-5"
+            >
+              Most Popular
+            </div>
+          </section>
+
+          <div
+            class="load-more font-semibold text-xl text-gray-600 bg-secondry-200 flex justify-center px-2 py-3 hover:text-white cursor-pointer hover:text-2xl transition ease-out duration-300"
+          >
+            load-more
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
