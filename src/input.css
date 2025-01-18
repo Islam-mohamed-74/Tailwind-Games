@@ -15,3 +15,9 @@
 .btn {
   @apply cursor-pointer border-primary border-2 px-3 py-2 rounded-lg;
 }
+
+@media (max-width: 768px) {
+  .btn {
+    @apply cursor-pointer text-sm border-primary border-2 p-2 rounded-lg;
+  }
+}
