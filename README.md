@@ -1,2 +1,2 @@
 # Html_And_Css-games
-Html and Css design number two with tailwind
+Html and Css design number two with tailwind - responsive design
