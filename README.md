@@ -1,2 +1,21 @@
-# Html_And_Css-games
-Html and Css design number two with tailwind - responsive design
+Tailwind Games
+A collection of interactive games built with Tailwind CSS for design practice.
+Technologies
+
+HTML
+CSS
+Tailwind CSS
+
+Features
+
+Responsive design for mobile and desktop
+Interactive game interfaces with Tailwind CSS
+Clean and modern UI
+
+Installation
+
+Clone the repository: git clone https://github.com/Islam-mohamed-74/Tailwind-Games
+Open index.html in a browser
+
+Live Demo
+View Live Demo 
