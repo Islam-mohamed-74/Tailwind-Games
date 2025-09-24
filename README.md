@@ -1,7 +1,7 @@
 Tailwind Games
 A collection of interactive games built with Tailwind CSS for design practice.
 Technologies
-
+![preview](./image.jpg)
 HTML
 CSS
 Tailwind CSS
